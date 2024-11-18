@@ -5,6 +5,9 @@ import CategoryShowCase from './CategoryShowCase'
 import Register from './Register'
 import LocationSprate from './LocationSprate'
 import AboutUs from './AboutUs'
+import AppSection from './AppSection'
+import Sponsor from './Sponsor'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -15,6 +18,9 @@ const Home = () => {
       <Register/>
       <LocationSprate/>
       <AboutUs/>
+      <AppSection/>
+      <Sponsor/>
+      <Footer/>
     </div>
   )
 }
