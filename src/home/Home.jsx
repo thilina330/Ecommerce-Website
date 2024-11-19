@@ -7,7 +7,7 @@ import LocationSprate from './LocationSprate'
 import AboutUs from './AboutUs'
 import AppSection from './AppSection'
 import Sponsor from './Sponsor'
-import Footer from '../components/Footer'
+
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
       <AboutUs/>
       <AppSection/>
       <Sponsor/>
-      <Footer/>
+      
     </div>
   )
 }
